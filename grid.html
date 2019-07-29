@@ -13,7 +13,158 @@
 
 <body>
     <div class="container">
+        <div class="container">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" name="inputEmail" id="inputEmail" placeholder="Email">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Password</label>
+                        <input type="password" class="form-control" name="inputEmail" id="inputEmail" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Address 1</label>
+                    <input type="text" class="form-control" name="inputAddress" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Address 2</label>
+                    <input type="text" class="form-control" name="inputAddress" id="inputAddress" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputState">City</label>
+                        <input type="text" class="form-control" name="inputState" id="inputState">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">State </label>
+                        <select class="form-control" name="inputState" id="inputState">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" name="inputZip" id="inputZip">
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input id="inputCheck" class="form-check-input" type="checkbox" name="" value="">
+                            <label for="inputCheck" class="form-check-label">Check me out</label>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-secondary">Sign in</button>
+            </form>
+        </div>
+        <br>
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <input class="form-control" type="text" placeholder="First name">
+                </div>
+                <div class="col">
+                    <input class="form-control" type="text" placeholder="Last name">
+                </div>
 
+            </div>
+        </form>
+        <br>
+        <form action="get">
+            <div class="row">
+                <div class="col">
+                    <input class="form-control" type="text" placeholder="First Name">
+                </div>
+
+                <div class="col">
+                    <input class="form-control" type="text" placeholder="Last Name">
+                </div>
+            </div>
+        </form>
+
+        <div class="form-check form-check-inline">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="1" id="1" value="checkedValue">  1
+            </label>
+            <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="2" id="2" value="checkedValue">  2
+                </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="a" id="" value="checkedValue" checked>
+                    Display value 1
+                  </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="a" id="" value="checkedValue" checked>
+                        Display value 2
+                      </label>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" >
+            Display value
+          </label>
+        </div>
+
+        <form>
+            <div class="form-group row">
+                <label for="inputName" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" value="exam@gmail.com" id="inputName">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="password" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" name="inputName" id="password" placeholder="Password">
+                </div>
+            </div>
+
+
+        </form>
+        <form action="get">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email</label>
+                <input type="email" class="form-control" name="exampleFormControlInput1" id="exampleFormControlInput1" aria-describedby="emailHelpId" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Example select</label>
+                <select id="exampleFormControlSelect1" class="form-control" name="">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Example select</label>
+                <select multiple class="custom-select" name="exampleFormControlSelect1" id="exampleFormControlSelect1">
+                    <option selected>Select one</option>
+                    <option value="a">two</option>
+                    <option value="b">three</option>
+                    <option value="c">four</option>
+                    <option value="c">five</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="my-textarea">Example textarea</label>
+                <textarea id="my-textarea" class="form-control" name="" rows="3"></textarea>
+            </div>
+
+
+
+
+
+
+
+        </form>
         <br>
         <form action="#">
             <div class="card-body">
